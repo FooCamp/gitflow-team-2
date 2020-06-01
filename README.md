@@ -19,4 +19,4 @@ All team members should do the following:
 ## Team members
 | Name | Profile            |
 | ---- | ------------------ |
-| Omar M |[omeneses](github.link) |
+| Omar M |[omeneses](https://github.com/omeneses) |
