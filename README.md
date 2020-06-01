@@ -19,4 +19,5 @@ All team members should do the following:
 ## Team members
 | Name | Profile            |
 | ---- | ------------------ |
+| Fernando Barrera | mfbarrera (https://github.com/mfbarrera)|
 | Omar M |[omeneses](https://github.com/omeneses) |
