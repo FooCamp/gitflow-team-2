@@ -21,3 +21,4 @@ All team members should do the following:
 | ---- | ------------------ |
 | Fernando Barrera | mfbarrera (https://github.com/mfbarrera)|
 | Omar M |[omeneses](https://github.com/omeneses) |
+| Sebastian J |[sjaramilloo](https://github.com/sjaramilloo) |
