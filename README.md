@@ -19,4 +19,4 @@ All team members should do the following:
 ## Team members
 | Name | Profile            |
 | ---- | ------------------ |
-| Mariana |[MarianaLoaiza](github.link) |
+| MarianaLoaiza |[MarianaLoaiza](github.link) |
