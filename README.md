@@ -19,5 +19,4 @@ All team members should do the following:
 ## Team members
 | Name | Profile            |
 | ---- | ------------------ |
-| Name |[Username](github.link) |
 | Carolina Naranjo |[caritonaranjo](https://github.com/caritonaranjo) |
