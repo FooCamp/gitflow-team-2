@@ -20,3 +20,5 @@ All team members should do the following:
 | Name | Profile            |
 | ---- | ------------------ |
 | Carolina Naranjo |[caritonaranjo](https://github.com/caritonaranjo) |
+| Fernando Barrera | mfbarrera (https://github.com/mfbarrera)|
+| Omar M |[omeneses](https://github.com/omeneses) |
