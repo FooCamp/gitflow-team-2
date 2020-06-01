@@ -19,4 +19,4 @@ All team members should do the following:
 ## Team members
 | Name | Profile            |
 | ---- | ------------------ |
-| Name |[Username](github.link) |
+| Fernando Barrera | mfbarrera (https://github.com/mfbarrera)|
