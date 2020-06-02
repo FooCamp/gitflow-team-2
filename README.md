@@ -19,6 +19,7 @@ All team members should do the following:
 ## Team members
 | Name | Profile            |
 | ---- | ------------------ |
+| Mariana Loaiza |[MarianaLoaiza](https://github.com/MarianaLoaiza) |
 | Carolina Naranjo |[caritonaranjo](https://github.com/caritonaranjo) |
 | Fernando Barrera | [mfbarrera](https://github.com/mfbarrera)|
 | Omar Meneses |[omeneses](https://github.com/omeneses) |
