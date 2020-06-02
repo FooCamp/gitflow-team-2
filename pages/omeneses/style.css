@@ -1,0 +1,51 @@
+body {
+    background-color: #2286c3;
+    background-image: url("Madrid.jpg");
+    
+    margin: 0%; 
+}
+
+.rgba{
+    background-color:rgba(32,36,37,0.6); /* rgbA */
+}
+
+.container{
+    display: flex;
+    flex-direction: row;  
+    padding: 0px;
+    
+    
+    /* margin: 40px; */
+    /* width: 800px; */
+    
+}
+
+.heading-title{
+    text-transform:uppercase;
+    padding-top: 40px;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 2rem; 
+    color:white;
+}
+
+.heading-title--orange{
+    color: #e54b2c;
+}
+
+.card{
+    margin: 20px 20px;
+    text-align: center;
+    background-color: #83b3f3;
+    width: 33%;
+    height: auto;
+    font-family: fantasy;
+    color: white;
+    border: 1px solid #000000;
+    justify-content: center;
+}
+
+img{
+    max-width:100%;
+    height: auto;
+}
