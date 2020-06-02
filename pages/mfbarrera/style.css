@@ -3,31 +3,59 @@ body {
     padding: 0;
 }
 .container {
+    background-image: url(https://revistaroomin.com/wp-content/uploads/2019/03/travel-editor-favorite-products.jpg);
+    background-size: cover;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    padding: 20px 100px 20px 100px;
+    position: relative;
+    width: 90%;
+}
+
+/* .container:before{
     background-color: rgb(40, 40, 40);
-    justify-content: left;
-    padding: 20px 100px 20px 250px;
-    flex-wrap: wrap;
+    content: "";
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+} */
+
+.carousel{
+    
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    padding-top: 0%;
+}
+
+.carousel_header{
+    margin: 25px 0 0 0;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    color: white;
 }
 
 .card {
-    background-color: rgba(151, 151, 154, 0.564); 
+    background-color: rgb(255, 255, 255); 
     width: 180px;
-    /* margin-block-end: 20px; 
-    margin-left: 16px;
-    margin-top: 20px;
-    margin-right: 16px; */
     margin: 20px 16px ;
     text-align: center;
     padding: 16px;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
+    height: 300px;
+    justify-content: space-between;
 }
 
 .card:hover{
     transform: translateY(-5px);
-    box-shadow: 0 10px 10px #f5f4c73f; 
+    box-shadow: 0 10px 10px #05f7eb48; 
 }
 
 .card--reverse {
@@ -41,19 +69,20 @@ body {
     font-size: 14px;
 }
 
-.card__title--color-scott {
-    color: rgb(230, 55, 204);
+.card__title--color-promo {
+    color: rgb(87, 164, 226);
 }
 
 .card__line-separator {
     color: #c6c2c2;
     width: 120px;
+    margin-bottom: 10px;
 }
 
 .card__description {
     width: 100%;
     text-align: left;
-    color: #ffffff;
+    color: #000000;
     line-height: 1,2;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 12px;
@@ -61,7 +90,6 @@ body {
 
 .card__image {
     width: 100%;
-    /* display: block; */
     height: 120px;
     object-fit: cover;
     object-position: center;
