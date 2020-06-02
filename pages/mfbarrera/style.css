@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    background-color: rgb(40, 40, 40);
+    justify-content: left;
+    padding: 20px 100px 20px 250px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgba(151, 151, 154, 0.564); 
+    width: 180px;
+    /* margin-block-end: 20px; 
+    margin-left: 16px;
+    margin-top: 20px;
+    margin-right: 16px; */
+    margin: 20px 16px ;
+    text-align: center;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 10px #f5f4c73f; 
+}
+
+.card--reverse {
+    flex-direction: column-reverse;
+}
+
+.card__title {
+    color: rgb(167, 227, 28);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.card__title--color-scott {
+    color: rgb(230, 55, 204);
+}
+
+.card__line-separator {
+    color: #c6c2c2;
+    width: 120px;
+}
+
+.card__description {
+    width: 100%;
+    text-align: left;
+    color: #ffffff;
+    line-height: 1,2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.card__image {
+    width: 100%;
+    /* display: block; */
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
