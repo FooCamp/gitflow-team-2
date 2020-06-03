@@ -6,31 +6,22 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
     height: 600px;
-    margin-top: 96px;
-    padding: 0px 100px 0px 100px;
-    position: relative;
+    margin: 96px;
     width: 100%;
+    display: flex;
+    
 }
 
 .background{
     background: linear-gradient(0deg, #1d1d1d6e, #31313175), url(https://revistaroomin.com/wp-content/uploads/2019/03/travel-editor-favorite-products.jpg);
     background-size: cover;
     height: 600px;
-    position: inherit;
-    width: 100%;
-}
-
-/* .background::before{
-    background-color: rgb(40, 40, 40);
-    content: "";
-    height: 100%;
-    opacity: 0.5;
     position: absolute;
-    width: 100%;
-} */
+    width: 90%;
+}
 
 .carousel{
     align-items: flex-end;
@@ -38,6 +29,7 @@ body {
     justify-content: center;
     height: 400px;
     padding-top: 0%;
+    position: relative;
 }
 
 .carousel_header{
@@ -65,10 +57,6 @@ body {
 .card:hover{
     transform: translateY(-5px);
     box-shadow: 0 10px 10px #0b8f8848; 
-}
-
-.card--reverse {
-    flex-direction: column-reverse;
 }
 
 .card__title {
@@ -102,6 +90,29 @@ body {
     height: 120px;
     object-fit: cover;
     object-position: center;
+}
+
+.button{
+    color: #000000;
+    height: 20px;
+    width: 20px;
+    padding: 0; 
+    position: absolute;
+    top: 50%;
+}
+
+.button--right{
+    right: 25%;
+    transform: rotate(180deg);
+}
+
+.button--left{
+    left: 25%;
+}
+
+.button_image{
+    width: 100%;
+    height: 100%;
 }
 
 
