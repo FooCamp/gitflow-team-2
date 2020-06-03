@@ -16,7 +16,7 @@ body {
 }
 
 .background{
-    background: linear-gradient(0deg, #24c51f96, #3131314f), url(https://revistaroomin.com/wp-content/uploads/2019/03/travel-editor-favorite-products.jpg);
+    background: linear-gradient(0deg, #1d1d1d6e, #31313175), url(https://revistaroomin.com/wp-content/uploads/2019/03/travel-editor-favorite-products.jpg);
     background-size: cover;
     height: 600px;
     position: inherit;
