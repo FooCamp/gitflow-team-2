@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cornsilk;
+}
+#carousel-wraper{
+    background-image: url("images/old-books.jpg");
+
+}
+h1 {
+    text-align: center;
+
+}
+ .controls-side .btn-side_right{
+    position:absolute; 
+    border-radius:50%;
+    top:calc(50% - 20px);
+    left: 0;
+}
+.controls-side .btn-side_left{
+    position:absolute; 
+    border-radius:50%;
+    top:calc(50% - 20px);
+    right: 0;
+}
+
+.btn-img{
+    width: 20px;
+    height: 20px;
+        }
+
+.btn-next{
+    transform: rotate(180deg);
+
+}
+.carousel-block{
+    position: relative;
+    margin: 50px auto;
+    display:flex;       
+     box-sizing: border-box;
+     width: 70%;  
+
+}
+.carousel-indicators{
+    position: absolute;
+    border-radius: 50%;
+    top:calc(100% - 10px);
+    display: flex;
+    flex-direction: row;
+
+}
+.carousel-item{
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+}
+    
+.card-block{
+    margin: 20px;
+    width: 30%;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+}
+.card-block img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}

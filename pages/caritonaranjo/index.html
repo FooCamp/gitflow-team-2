@@ -1,11 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>carousel</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="carolina naranjo" href="humans.txt" />
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <!--Carousel Wrapper-->
+    <section id="carousel-wraper">
+      <h1>
+        OUR BOOKS
+      </h1>
+
+      <!--Indicators-->
+      <ul class="carousel-indicators">
+        <li
+          data-target="#carousel-wraper"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carousel-wraper" data-slide-to="1"></li>
+        <li data-target="#carousel-wraper" data-slide-to="2"></li>
+      </ul>
+      <!--/.Indicators-->
+
+      <!--Slides-->
+      <div class="carousel-block">
+        <div class="card-block">
+          <div class="card-image">
+            <img class="card-img-top" src="images/history.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">HISTORY</h4>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class="button-primary">MORE</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-block">
+          <div class="card-image">
+            <img class="card-img-top" src="images/romance.jpeg" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">ROMANCE</h4>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class="button-primary">MORE</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-block">
+          <div class="card-image">
+            <img class="card-img-top" src="images/fantasy.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">FANTASY</h4>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class="button-primary">MORE</button>
+            </div>
+          </div>
+        </div>
+        <!--Controls-->
+        <section class="controls-side">
+          <button
+            class="btn-side_right"
+            href="#carousel-wraper"
+            data-slide="prev"
+          >
+            <img class="btn-img" src="images/btn-left.webp" /><i
+              class="btn buton-left"
+            ></i>
+          </button>
+          <button
+            class="btn-side_left"
+            href="#carousel-wraper"
+            data-slide="next"
+          >
+            <img class="btn-img btn-next" src="images/btn-left.webp" /><i
+              class="btn button-right"
+            ></i>
+          </button>
+        </section>
+        <!--/.Controls-->
+      </div>
+    </section>
+    <!--/.Carousel Wrapper-->
+  </body>
 </html>
