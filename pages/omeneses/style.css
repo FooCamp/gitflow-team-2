@@ -35,14 +35,28 @@ body {
 
 .card{
     margin: 20px 20px;
-    text-align: center;
     background-color: #83b3f3;
     width: 33%;
     height: auto;
-    font-family: fantasy;
     color: white;
     border: 1px solid #000000;
     justify-content: center;
+   
+}
+
+.card__caption{
+    padding-left: 40px;
+    text-transform:uppercase;
+    color: #e54b2c;
+}
+
+.card__hotels-list{
+    list-style-type: none
+}
+
+.card__cta{
+    text-align:center;
+    color: #e54b2c;
 }
 
 img{
