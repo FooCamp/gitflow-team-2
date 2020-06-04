@@ -5,6 +5,7 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>carousel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <link rel="carolina naranjo" href="humans.txt" />
     <script src="js/main.js"></script>
@@ -13,22 +14,10 @@
     <!--Carousel Wrapper-->
     <section id="carousel-wraper">
       <h1>
-        OUR BOOKS
+        OUR <span>BOOKS</span>
       </h1>
 
-      <!--Indicators-->
-      <ul class="carousel-indicators">
-        <li
-          data-target="#carousel-wraper"
-          data-slide-to="0"
-          class="active"
-        ></li>
-        <li data-target="#carousel-wraper" data-slide-to="1"></li>
-        <li data-target="#carousel-wraper" data-slide-to="2"></li>
-      </ul>
-      <!--/.Indicators-->
-
-      <!--Slides-->
+            <!--Slides-->
       <div class="carousel-block">
         <div class="card-block">
           <div class="card-image">
@@ -36,8 +25,8 @@
             <div class="card-body">
               <h4 class="card-title">HISTORY</h4>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                History (from Greek ἱστορία - historia, meaning "inquiry, knowledge acquired by investigation") is the discovery, collection, organization, and presentation of information about past events. 
+                History can also mean the period of time after writing was invented. Scholars who write about history are called historians.
               </p>
               <button class="button-primary">MORE</button>
             </div>
@@ -50,8 +39,8 @@
             <div class="card-body">
               <h4 class="card-title">ROMANCE</h4>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                According to the Romance Writers of America, "Two basic elements comprise every romance novel: a central love story and an emotionally-satisfying and optimistic ending.
+                " Both the conflict and the climax of the novel should be directly related to that core theme of developing a romantic relationship, although the novel can also contain subplots that do not specifically relate to the main characters' romantic love.
               </p>
               <button class="button-primary">MORE</button>
             </div>
@@ -64,8 +53,9 @@
             <div class="card-body">
               <h4 class="card-title">FANTASY</h4>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Fantasy is a genre that uses magic and other supernatural forms as a primary element of plot, theme, and/or setting.
+                Fantasy is generally distinguished from science fiction and horror by the expectation that it steers clear of technological and macabre themes, respectively, though there is a great deal of overlap between the three (collectively known as speculative fiction or science fiction/fantasy)
+
               </p>
               <button class="button-primary">MORE</button>
             </div>
@@ -73,7 +63,7 @@
         </div>
         <!--Controls-->
         <section class="controls-side">
-          <button
+          <a
             class="btn-side_right"
             href="#carousel-wraper"
             data-slide="prev"
@@ -81,8 +71,8 @@
             <img class="btn-img" src="images/btn-left.webp" /><i
               class="btn buton-left"
             ></i>
-          </button>
-          <button
+        </a>
+          <a
             class="btn-side_left"
             href="#carousel-wraper"
             data-slide="next"
@@ -90,10 +80,25 @@
             <img class="btn-img btn-next" src="images/btn-left.webp" /><i
               class="btn button-right"
             ></i>
-          </button>
+      </a>
         </section>
         <!--/.Controls-->
       </div>
+      <!--Indicators-->
+      <section >
+        <ul class="indicators">
+        <li
+          data-target="#carousel-wraper"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carousel-wraper" data-slide-to="1"></li>
+        <li data-target="#carousel-wraper" data-slide-to="2"></li>
+      </ul>
+      </section >
+      <!--/.Indicators-->
+      
+
     </section>
     <!--/.Carousel Wrapper-->
   </body>

@@ -1,15 +1,23 @@
 body{
     background-color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Tenali Ramakrishna', sans-serif;
     color: cornsilk;
-}
+   }
 #carousel-wraper{
     background-image: url("images/old-books.jpg");
 
 }
 h1 {
     text-align: center;
+    font-size: 70px;
 
+}
+h1 span{
+    color: tomato;
+}
+h4{
+    color: rgba(199, 41, 72, 0.794);
 }
  .controls-side .btn-side_right{
     position:absolute; 
@@ -38,7 +46,7 @@ h1 {
     margin: 50px auto;
     display:flex;       
      box-sizing: border-box;
-     width: 70%;  
+     width: 50%;  
 
 }
 .carousel-indicators{
@@ -58,8 +66,8 @@ h1 {
 .card-block{
     margin: 20px;
     width: 30%;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 10px;
+    padding: 0px;
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -67,6 +75,38 @@ h1 {
 }
 .card-block img{
     width: 100%;
-    height: 500px;
+    height: 300px;
     object-fit: cover;
+}
+.card-body{
+    padding: 20px;
+}
+.button-primary{
+    background-color: rgb(5, 112, 131);
+    border: none;
+    padding: 10px;
+    color: white;
+    display: block;
+    margin: auto;
+}
+.indicators{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+li{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px; 
+    background-color: rgb(36, 21, 24);
+   border: 2px solid white;
+    list-style: none;
+    margin: 5px;
+    
+}
+
+li.active {
+    background-color: green;
 }
