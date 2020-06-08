@@ -11,7 +11,7 @@ All team members should do the following:
 - Add and anchor tag in the main index to redirect to your newly added sub-page
 - Open a PR with your code so your team con review it or suggests changes.
 
-> **_Note:_** 
+> **_Note:_**
 > Each PR should follow the GitFlow convention (Branch naming) and provide valuable information.
 > All code must be clean, well indented and _BEM_ must be used where applicable
 
@@ -19,9 +19,9 @@ All team members should do the following:
 ## Team members
 | Name | Profile            |
 | ---- | ------------------ |
+| Ramiro Molina | [sadhiop](https://github.com/sadhiop) |
 | Mariana Loaiza |[MarianaLoaiza](https://github.com/MarianaLoaiza) |
 | Carolina Naranjo |[caritonaranjo](https://github.com/caritonaranjo) |
 | Fernando Barrera | [mfbarrera](https://github.com/mfbarrera)|
 | Omar Meneses |[omeneses](https://github.com/omeneses) |
 | Sebastian Jaramillo |[sjaramilloo](https://github.com/sjaramilloo) |
-
