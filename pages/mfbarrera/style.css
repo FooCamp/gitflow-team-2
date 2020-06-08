@@ -2,44 +2,39 @@ body {
     margin: 0;
     padding: 0;
     width: 1480px;
-}
-
-.container {
-    display: flex;
-    flex-flow: row wrap;
-    flex-wrap: wrap;
-    height: 600px;
-    margin: 96px;
-    width: 100%;
-    
-}
+}    
 
 .background{
-    background: linear-gradient(0deg, #1d1d1d6e, #31313175), url(https://revistaroomin.com/wp-content/uploads/2019/03/travel-editor-favorite-products.jpg);
+    background: linear-gradient(0deg, #1d1d1d9f, #313131ab), url(https://revistaroomin.com/wp-content/uploads/2019/03/travel-editor-favorite-products.jpg);
     background-size: cover;
     height: 600px;
     position: absolute;
     width: 90%;
+}    
+
+.button{
+    background: transparent;
+    border: none;
+    height: 40px;
+    width: 40px;
+    padding: 0; 
+    position: absolute;
+    top: 50%;
+} 
+
+.button--right {
+    right: 5%;
+    transform: rotate(180deg);
 }
 
-.carousel{
-    align-items: flex-end;
-    display: flex;
-    justify-content: center;
-    height: 400px;
-    margin: 0 auto;
-    max-width: 1024px;
-    padding-top: 0%;
-    position: relative;
+.button--left {
+    left: 5%;
 }
 
-.carousel__header{
-    margin: 55px 0 0 0;
-    text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 60px;
-    color: white;
-}
+.button__image {
+    width: 100%;
+    height: 100%;
+}   
 
 .card {
     background-color: rgb(255, 255, 255); 
@@ -51,31 +46,30 @@ body {
     flex-direction: column;
     border-radius: 5px;
     height: 300px;
-    justify-content: space-between;
-    
-}
+    justify-content: space-between;   
+}    
 
 .card:hover{
     transform: translateY(-5px);
     box-shadow: 0 10px 10px #0b8f8848; 
-}
+}    
 
 .card__title {
     color: rgb(167, 227, 28);
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 20px;
-}
+}    
 
 .card__title--color-promo {
     color: rgb(87, 164, 226);
-}
+}    
 
 .card__line-separator {
     color: #c6c2c2;
     width: 120px;
     margin-bottom: 10px;
-}
+}    
 
 .card__description {
     width: 100%;
@@ -84,38 +78,42 @@ body {
     line-height: 1,2;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 12px;
-}
+}    
 
 .card__image {
     width: 100%;
     height: 120px;
     object-fit: cover;
     object-position: center;
-}
+}    
 
-.button{
-    background: transparent;
-    border: none;
-    height: 40px;
-    width: 40px;
-    padding: 0; 
-    position: absolute;
-    top: 50%;
-}
+.carousel{
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding-top: 0%;
+    position: relative;
+}    
 
-.button--right {
-    right: 0;
-    transform: rotate(180deg);
-}
+.carousel__header{
+    margin: 55px 0 0 0;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    color: white;
+} 
 
-.button--left {
-    left: 0;
-}
-
-.button__image {
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    height: 600px;
+    margin: 50px;
     width: 100%;
-    height: 100%;
-}
+}    
 
 .dots {
     display: flex;
@@ -124,7 +122,7 @@ body {
     text-align: center;
     list-style: none;
     justify-content: center;
-}
+}    
 
 .dot {
     border-radius: 50%;
@@ -134,9 +132,10 @@ body {
     height: 10px;
     background-color: rgb(184, 218, 183);
     padding: 0;
-}
+}    
 
 .dot--active {
     background-color: rgb(252, 6, 6);
-}
+}    
+   
 
