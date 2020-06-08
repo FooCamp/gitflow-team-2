@@ -1,23 +1,17 @@
-body {
-    background-color: #2286c3;
-    background-image: url("Madrid.jpg");
-    
-    margin: 0%; 
+.carousel {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex: 1;
+    background-image: linear-gradient(270deg,  #1d1d1d6e, #31313175), url("Madrid.jpg");
+    justify-content: center;
 }
 
-.rgba{
-    background-color:rgba(32,36,37,0.6); /* rgbA */
-}
-
-.container{
+.card-container{
     display: flex;
     flex-direction: row;  
-    padding: 0px;
-    
-    
-    /* margin: 40px; */
-    /* width: 800px; */
-    
+    justify-content: center; 
+    align-items: center;
 }
 
 .heading-title{
@@ -29,25 +23,28 @@ body {
     color:white;
 }
 
-.heading-title--orange{
+.heading-title--orange-font{
     color: #e54b2c;
 }
 
 .card{
     margin: 20px 20px;
-    background-color: #83b3f3;
-    width: 33%;
+    background-color: white;
+    max-width: 250px ;
     height: auto;
-    color: white;
-    border: 1px solid #000000;
     justify-content: center;
-   
+}
+
+.card__image {
+    max-width:100%;
+    height: auto;
 }
 
 .card__caption{
     padding-left: 40px;
     text-transform:uppercase;
     color: #e54b2c;
+    font-weight: bold;
 }
 
 .card__hotels-list{
@@ -56,10 +53,26 @@ body {
 
 .card__cta{
     text-align:center;
-    color: #e54b2c;
+    margin: 10px;
 }
 
-img{
-    max-width:100%;
+.button-cta{
+    background-color:#169;
+    color: white;
+    border-style: none;
+    text-transform:uppercase;
+    font-weight: bold;
+    margin: 10px; 
+}
+
+.button-arrow{
+    background-color: transparent;
+    border-style: none;
+} 
+
+.button-arrow__image{
+    border-style: none;
+    max-width: 60px;
     height: auto;
 }
+

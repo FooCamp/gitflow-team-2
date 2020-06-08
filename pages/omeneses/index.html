@@ -8,14 +8,19 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <section class="rgba">
+  <section class="carousel">
     <div class="heading-title">
-                <h1>our <span class="heading-title--orange">hotels</span></h1>
+                <h1>our <span class="heading-title--orange-font">hotels</span></h1>
     </div>
-    <div class="container">  
+    <div class="card-container">  
+      <div>
+          <button class="button-arrow">
+              <img src="./chevron_left.png" class="button-arrow__image">
+         </button>
+      </div>    
       <div class="card">
         <div>
-          <img src="Cuba.jpg" alt="card1" />
+          <img src="Cuba.jpg" alt="card1" class="card__image" />
         </div>
         <h3 class="card__caption">Cuba</h3>
         <ul class="card__hotels-list">
@@ -24,12 +29,12 @@
           <li>Hotel 3</li>
         </ul>
         <div class="card__cta">
-            <button >More</button>
+            <button class="button-cta">More ></button>
         </div>
       </div>
       <div class="card">
         <div>
-            <img src="New York.jpg" alt="card1" />
+            <img src="New York.jpg" alt="card1" class="card__image" />
         </div>
         <h3 class="card__caption">Cuba</h3>
         <ul class="card__hotels-list">
@@ -38,12 +43,12 @@
           <li>Hotel z</li>
         </ul>
         <div class="card__cta">
-            <button >More</button>
+            <button class="button-cta">More ></button>
         </div>
       </div>
       <div class="card">
         <div>
-          <img src="Paris.jpg" alt="card3" />
+          <img src="Paris.jpg" alt="card3" class="card__image" />
         </div>
         <h3 class="card__caption">Cuba</h3>
         <ul class="card__hotels-list">
@@ -52,9 +57,14 @@
           <li>Hotel 6</li>
         </ul>
         <div class="card__cta">
-            <button >More</button>
+            <button class="button-cta">More ></button>
         </div>
       </div>
+      <div>
+          <button class="button-arrow">
+              <img src="./chevron_right.png" class="button-arrow__image" >
+         </button>
+      </div>    
     </div>
   </section>
 </body>
