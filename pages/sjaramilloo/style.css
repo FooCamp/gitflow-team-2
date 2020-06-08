@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 1480px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    height: 600px;
+    margin: 96px;
+    width: 100%;
+
+}
+
+.background{
+    background: linear-gradient(0deg, #1d1d1d6e, #31313175), url(https://www.comunidadbaratz.com/wp-content/uploads/En-el-mundo-existen-150.000.000-de-libros%E2%80%A6-y-estos-son-los-100-mejores.jpg);
+    background-size: cover;
+    height: 600px;
+    position: absolute;
+    width: 90%;
+}
+
+.carousel{
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding-top: 0%;
+    position: relative;
+}
+
+.carousel__header{
+    margin: 55px 0 0 0;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+.button_image{
+width: 100%;
+
+}
+.card {
+    background-color: rgb(255, 255, 255); 
+    width: 180px;
+    margin: 20px 16px ;
+    text-align: center;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    height: 300px;
+    justify-content: space-between;
+
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 10px #0b8f8848; 
+}
+
+.card__title {
+    color: rgb(167, 227, 28);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.card__title--color-promo {
+    color: rgb(116, 226, 112);
+}
+
+.card__line-separator {
+    color: #c6c2c2;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.card__description {
+    width: 100%;
+    text-align: left;
+    color: #000000;
+    line-height: 1,2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.card__image {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.button{
+    background: transparent;
+    border: none;
+    height: 40px;
+    width: 40px;
+    padding: 0; 
+    position: absolute;
+    top: 50%;
+}
+
+.button--right {
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.button--left {
+    left: 0;
+}
+
+.button__image {
+    width: 40px;
+    height: 40px;
+}
+
+.dots {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+}
+
+.dot {
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+}
+
+.dot--active {
+    background-color: rgb(0, 0, 0);
+}
