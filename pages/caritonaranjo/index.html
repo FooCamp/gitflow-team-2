@@ -12,88 +12,85 @@
   </head>
   <body>
     <!--Carousel Wrapper-->
-    <section id="carousel-wraper">
-      <h1>
+    <section id="carousel">
+      <h1 class="carousel__title">
         OUR <span>BOOKS</span>
       </h1>
 
             <!--Slides-->
-      <div class="carousel-block">
-        <div class="card-block">
-          <div class="card-image">
-            <img class="card-img-top" src="images/history.jpg" alt="Card image cap" />
-            <div class="card-body">
-              <h4 class="card-title">HISTORY</h4>
-              <p class="card-text">
+      <div class="carousel__block">
+        <div class="card__block">
+          <div class="card__image">
+            <img class="card__img--top" src="images/history.jpg" alt="Card image" />
+            <div class="card__body">
+              <h4 class="card__title">HISTORY</h4>
+              <p class="card__text">
                 History (from Greek ἱστορία - historia, meaning "inquiry, knowledge acquired by investigation") is the discovery, collection, organization, and presentation of information about past events. 
                 History can also mean the period of time after writing was invented. Scholars who write about history are called historians.
               </p>
-              <button class="button-primary">MORE</button>
+              <button class="button__primary">MORE</button>
             </div>
           </div>
         </div>
 
-        <div class="card-block">
-          <div class="card-image">
-            <img class="card-img-top" src="images/romance.jpeg" alt="Card image cap" />
-            <div class="card-body">
-              <h4 class="card-title">ROMANCE</h4>
-              <p class="card-text">
+        <div class="card__block">
+          <div class="card__image">
+            <img class="card__img--top" src="images/romance.jpeg" alt="Card image" />
+            <div class="card__body">
+              <h4 class="card__title">ROMANCE</h4>
+              <p class="card__text">
                 According to the Romance Writers of America, "Two basic elements comprise every romance novel: a central love story and an emotionally-satisfying and optimistic ending.
                 " Both the conflict and the climax of the novel should be directly related to that core theme of developing a romantic relationship, although the novel can also contain subplots that do not specifically relate to the main characters' romantic love.
               </p>
-              <button class="button-primary">MORE</button>
+              <button class="button__primary">MORE</button>
             </div>
           </div>
         </div>
 
-        <div class="card-block">
-          <div class="card-image">
-            <img class="card-img-top" src="images/fantasy.jpg" alt="Card image cap" />
-            <div class="card-body">
-              <h4 class="card-title">FANTASY</h4>
-              <p class="card-text">
+        <div class="card__block">
+          <div class="card__image">
+            <img class="card__img--top" src="images/fantasy.jpg" alt="Card image" />
+            <div class="card__body">
+              <h4 class="card__title">FANTASY</h4>
+              <p class="card__text">
                 Fantasy is a genre that uses magic and other supernatural forms as a primary element of plot, theme, and/or setting.
                 Fantasy is generally distinguished from science fiction and horror by the expectation that it steers clear of technological and macabre themes, respectively, though there is a great deal of overlap between the three (collectively known as speculative fiction or science fiction/fantasy)
 
               </p>
-              <button class="button-primary">MORE</button>
+              <button class="button__primary">MORE</button>
             </div>
           </div>
         </div>
         <!--Controls-->
-        <section class="controls-side">
-          <a
-            class="btn-side_right"
-            href="#carousel-wraper"
+        <section class="controls__side">
+          <button
+            class="btn__side--right"
+            href="#carousel__wraper"
             data-slide="prev"
-          >
-            <img class="btn-img" src="images/btn-left.webp" /><i
-              class="btn buton-left"
-            ></i>
-        </a>
-          <a
-            class="btn-side_left"
-            href="#carousel-wraper"
+          > 
+          <span class="btn__img "><</span>
+        </button>
+          <button
+            class=" btn__side--left"
+            href="#carousel__wraper"
             data-slide="next"
           >
-            <img class="btn-img btn-next" src="images/btn-left.webp" /><i
-              class="btn button-right"
-            ></i>
-      </a>
+          <span class="btn__img">></span>
+          </button>
         </section>
         <!--/.Controls-->
       </div>
       <!--Indicators-->
       <section >
-        <ul class="indicators">
-        <li
-          data-target="#carousel-wraper"
+        <ul class="carousel__indicators">
+        <li class="carousel__indicators--list" class="active"><button class="carousel__indicators--dot"
+          data-target="#carousel__wraper"
           data-slide-to="0"
-          class="active"
-        ></li>
-        <li data-target="#carousel-wraper" data-slide-to="1"></li>
-        <li data-target="#carousel-wraper" data-slide-to="2"></li>
+          ></button>
+        </li>
+        <li class="carousel__indicators--list"><button  class="carousel__indicators--dot" data-target="#carousel__wraper" data-slide-to="1"></button></li>
+        <li class="carousel__indicators--list"><button  class="carousel__indicators--dot" data-target="#carousel__wraper" data-slide-to="2"></button></li>
+        <li class="carousel__indicators--list"><button class="carousel__indicators--dot" data-target="#carousel__wraper" data-slide-to="3"></button></li>
       </ul>
       </section >
       <!--/.Indicators-->

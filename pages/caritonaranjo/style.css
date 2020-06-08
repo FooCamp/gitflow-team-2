@@ -1,47 +1,24 @@
 body{
     background-color: black;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     font-family: 'Tenali Ramakrishna', sans-serif;
     color: cornsilk;
    }
-#carousel-wraper{
+#carousel{
     background-image: url("images/old-books.jpg");
-
 }
-h1 {
+.carousel__title {
     text-align: center;
     font-size: 70px;
 
 }
-h1 span{
+ .carousel__title span{
     color: tomato;
 }
-h4{
+.card__title{
     color: rgba(199, 41, 72, 0.794);
+    justify-self: center;
 }
- .controls-side .btn-side_right{
-    position:absolute; 
-    border-radius:50%;
-    top:calc(50% - 20px);
-    left: 0;
-}
-.controls-side .btn-side_left{
-    position:absolute; 
-    border-radius:50%;
-    top:calc(50% - 20px);
-    right: 0;
-}
-
-.btn-img{
-    width: 20px;
-    height: 20px;
-        }
-
-.btn-next{
-    transform: rotate(180deg);
-
-}
-.carousel-block{
+.carousel__block{
     position: relative;
     margin: 50px auto;
     display:flex;       
@@ -49,21 +26,7 @@ h4{
      width: 50%;  
 
 }
-.carousel-indicators{
-    position: absolute;
-    border-radius: 50%;
-    top:calc(100% - 10px);
-    display: flex;
-    flex-direction: row;
-
-}
-.carousel-item{
-    width: 50px;
-    display: flex;
-    flex-direction: row;
-}
-    
-.card-block{
+.card__block{
     margin: 20px;
     width: 30%;
     border-radius: 10px;
@@ -73,15 +36,18 @@ h4{
     background-color: white;
     color: black;
 }
-.card-block img{
+.card__img--top{
     width: 100%;
     height: 300px;
     object-fit: cover;
 }
-.card-body{
+.card__text{
+    justify-content: center;
+}
+.card__body{
     padding: 20px;
 }
-.button-primary{
+.button__primary{
     background-color: rgb(5, 112, 131);
     border: none;
     padding: 10px;
@@ -89,22 +55,55 @@ h4{
     display: block;
     margin: auto;
 }
-.indicators{
+ .controls__side .btn__side--right{
+    position:absolute; 
+    border-radius:50%;
+    top:calc(50% - 20px);
+    left: 0;
+    background-color: rgb(129, 204, 162);
+}
+.controls__side .btn__side--left{
+    position:absolute; 
+    border-radius:50%;
+    top:calc(50% - 20px);
+    right: 0;
+    background-color: rgb(129, 204, 162);
+}
+
+.btn__img {
+    width: 30px;
+    height: 20px;
+    color: rgb(11, 11, 36);
+
+}
+
+.carousel-indicators{
+    position: absolute;
+    border-radius: 50%;
+    top:calc(100% - 10px);
+    display: flex;
+    flex-direction: row;
+
+}
+
+.carousel__indicators{
    
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
 }
-li{
+.carousel__indicators--dot{
     border-radius: 50%;
     width: 20px;
     height: 20px; 
     background-color: rgb(36, 21, 24);
    border: 2px solid white;
     list-style: none;
-    margin: 5px;
-    
+    margin: 5px;   
+}
+.carousel__indicators--list{
+    list-style: none;
 }
 
 li.active {
