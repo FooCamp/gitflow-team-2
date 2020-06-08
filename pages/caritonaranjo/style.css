@@ -23,7 +23,8 @@ body{
     margin: 50px auto;
     display:flex;       
      box-sizing: border-box;
-     width: 50%;  
+     height: fit-content; 
+     max-width: 1200px;
 
 }
 .card__block{
@@ -32,9 +33,10 @@ body{
     border-radius: 10px;
     padding: 0px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: white;
     color: black;
+    width: fit-content;
 }
 .card__img--top{
     width: 100%;
@@ -43,9 +45,11 @@ body{
 }
 .card__text{
     justify-content: center;
+    width: fit-content;
 }
 .card__body{
     padding: 20px;
+    width: fit-content
 }
 .button__primary{
     background-color: rgb(5, 112, 131);
@@ -106,6 +110,6 @@ body{
     list-style: none;
 }
 
-li.active {
+.active {
     background-color: green;
 }
