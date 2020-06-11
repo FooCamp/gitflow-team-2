@@ -4,6 +4,12 @@ body {
     width: 1480px;
 }    
 
+.container {
+    display: flex;
+    margin: 50px;
+    width: 100%;
+}   
+
 .background{
     background: linear-gradient(0deg, #1d1d1d9f, #313131ab), url(https://revistaroomin.com/wp-content/uploads/2019/03/travel-editor-favorite-products.jpg);
     background-size: cover;
@@ -12,6 +18,25 @@ body {
     width: 90%;
 }    
 
+.header{
+    margin: 55px 0 0 0;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    color: white;
+} 
+
+.carousel{
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding-top: 0%;
+    position: relative;
+}  
+   
 .button{
     background: transparent;
     border: none;
@@ -49,21 +74,12 @@ body {
     justify-content: space-between;   
 }    
 
-.card:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 10px 10px #0b8f8848; 
-}    
-
 .card__title {
     color: rgb(167, 227, 28);
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 20px;
-}    
-
-.card__title--color-promo {
-    color: rgb(87, 164, 226);
-}    
+} 
 
 .card__line-separator {
     color: #c6c2c2;
@@ -85,25 +101,16 @@ body {
     height: 120px;
     object-fit: cover;
     object-position: center;
+}   
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 10px #0b8f8848; 
 }    
 
-.carousel{
-    align-items: flex-end;
-    display: flex;
-    justify-content: center;
-    height: 400px;
-    margin: 0 auto;
-    max-width: 1024px;
-    padding-top: 0%;
-    position: relative;
-}    
-
-
-.container {
-    display: flex;
-    margin: 50px;
-    width: 100%;
-}    
+.card__title--color-promo {
+    color: rgb(87, 164, 226);
+} 
 
 .dots {
     display: flex;
@@ -128,10 +135,3 @@ body {
     background-color: rgb(252, 6, 6);
 }    
 
-.header{
-    margin: 55px 0 0 0;
-    text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 60px;
-    color: white;
-} 
