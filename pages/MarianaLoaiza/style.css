@@ -8,7 +8,7 @@ body{
     background-attachment: fixed;      
 }
 
-.title{
+.container-title{
     width: 100%;
     height: 100px;
     background:linear-gradient(0deg, rgba(1, 1, 19, 0.493), rgba(1, 1, 19, 0.493));  
@@ -18,7 +18,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .grid{
@@ -35,7 +34,6 @@ body{
 }
 
 .item{
-  
   background-color: rgba(255, 255, 255, 0.808);
 }
 
@@ -43,15 +41,15 @@ body{
     grid-column: inicio / finCard1;
     grid-row: inicio / final;
   }
-  .item:nth-of-type(2) {
+
+.item:nth-of-type(2) {
     grid-column: finCard1/ finCard2;
     grid-row: inicio / final;
-  
   }
+
   .item:nth-of-type(3) {
     grid-column:finCard2 / finCard3;
     grid-row: inicio / final;
-
   }
 
 .information{
@@ -67,32 +65,29 @@ body{
   display: flex;
   height: auto;
   margin-top: 0;
-  align-items: center;
-
- 
+  align-items: center; 
 }
+
 .description__img{
   width: 5%;
   height: 5%;
- 
 }
 
 .information__title{
-    margin: 0;
-    
+    margin: 0;    
 }
 
 .description__city{
   padding-right: 40%;
 }
 
-
-
-.btn__img{
-  width: 5%;
+.button--ringh .button--left{
+  border-radius: 50%;
+  width: 1px;
   height: 10%;
-  top: 50%;
-  position: absolute;
- 
 }
 
+.button__img{
+  width: 5%;
+  height: 10%; 
+}
