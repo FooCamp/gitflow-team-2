@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: cornsilk;
+    background-image: url("images/old-books.jpg");
+   }
+   
+.carousel__title {
+    text-align: center;
+    font-size: 70px;
+
+}
+ .carousel__title span{
+    color: tomato;
+}
+.card__title{
+    color: rgba(199, 41, 72, 0.794);
+    justify-self: center;
+}
+.carousel__block{
+    
+    position: relative;
+    margin: 50px auto;
+    display:flex;       
+     box-sizing: border-box;
+     height: fit-content; 
+     max-width: 1200px;
+
+}
+.card__block{
+    margin: 20px;
+    width: 30%;
+    border-radius: 10px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    width: fit-content;
+}
+.card__img--top{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.card__text{
+    justify-content: center;
+    width: fit-content;
+}
+.card__body{
+    padding: 20px;
+    width: fit-content
+}
+.button__primary{
+    background-color: rgb(5, 112, 131);
+    border: none;
+    padding: 10px;
+    color: white;
+    display: block;
+    margin: auto;
+}
+ .controls__side .btn__side--right{
+    position:absolute; 
+    border-radius:50%;
+    top:calc(50% - 20px);
+    left: 0;
+    background-color: rgb(129, 204, 162);
+}
+.controls__side .btn__side--left{
+    position:absolute; 
+    border-radius:50%;
+    top:calc(50% - 20px);
+    right: 0;
+    background-color: rgb(129, 204, 162);
+}
+
+.btn__img {
+    width: 30px;
+    height: 20px;
+    color: rgb(11, 11, 36);
+
+}
+
+.carousel-indicators{
+    position: absolute;
+    border-radius: 50%;
+    top:calc(100% - 10px);
+    display: flex;
+    flex-direction: row;
+
+}
+
+.carousel__indicators{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.carousel__indicators--dot{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px; 
+    background-color: rgb(36, 21, 24);
+   border: 2px solid white;
+    list-style: none;
+    margin: 5px;   
+}
+.carousel__indicators--list{
+    list-style: none;
+}
+
+.active {
+    background-color: green;
+}
