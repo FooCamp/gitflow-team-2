@@ -8,63 +8,92 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <section class="carousel">
-    <div class="heading-title">
-                <h1>our <span class="heading-title--orange-font">hotels</span></h1>
+  <section class="container carousel">
+    <div class="carousel__title">
+                <h1>our <span class="carousel__title--orange-font">hotels</span></h1>
     </div>
-    <div class="card-container">  
+    <div class="carousel__card-container card-container">      
       <div>
-          <button class="button-arrow">
-              <img src="./chevron_left.png" class="button-arrow__image">
-         </button>
-      </div>    
-      <div class="card">
+        <img src="./images/chevron_left.png" class="card-container__arrow">
+      </div>
+      <div class="card-container__card card">
         <div>
-          <img src="Cuba.jpg" alt="card1" class="card__image" />
+          <img src="./images/Cuba.jpg" alt="card1" class="card__image" />
         </div>
         <h3 class="card__caption">Cuba</h3>
-        <ul class="card__hotels-list">
-          <li>Hotel 1</li>
-          <li>Hotel 2</li>
-          <li>Hotel 3</li>
-        </ul>
-        <div class="card__cta">
-            <button class="button-cta">More ></button>
+        <ul class="card__hotel-list">
+            <li class="card__hotel-item">
+                <div class="card__hotel-name">Hotel 4</div>
+                <div class="card__hotel-rating">*****</div> 
+            </li>
+            <li class="card__hotel-item">
+                <div class="card__hotel-name">Hotel 5</div>
+                <div class="card__hotel-rating">*****</div> 
+            </li>
+            <li class="card__hotel-item">
+                <div class="card__hotel-name">Hotel 6</div>
+                <div class="card__hotel-rating">*****</div> 
+            </li>
+          </ul>
+        <div class="card__cta button">
+          <button class="button__cta">More ></button>
         </div>
       </div>
-      <div class="card">
+      <div class="card-container__card card">
         <div>
-            <img src="New York.jpg" alt="card1" class="card__image" />
+            <img src="./images/New York.jpg" alt="card1" class="card__image" />
         </div>
         <h3 class="card__caption">New York</h3>
-        <ul class="card__hotels-list">
-          <li>Hotel x</li>
-          <li>Hotel y</li>
-          <li>Hotel z</li>
-        </ul>
-        <div class="card__cta">
-            <button class="button-cta">More ></button>
+        <ul class="card__hotel-list">
+            <li class="card__hotel-item">
+                <div class="card__hotel-name">Hotel 4</div>
+                <div class="card__hotel-rating">*****</div> 
+            </li>
+            <li class="card__hotel-item">
+                <div class="card__hotel-name">Hotel 5</div>
+                <div class="card__hotel-rating">*****</div> 
+            </li>
+            <li class="card__hotel-item">
+                <div class="card__hotel-name">Hotel 6</div>
+                <div class="card__hotel-rating">*****</div> 
+            </li>
+          </ul>
+          <div class="card__cta button">
+            <button class="button__cta">More ></button>
         </div>
       </div>
-      <div class="card">
+      <div class="card-container__card card">
         <div>
-          <img src="Paris.jpg" alt="card3" class="card__image" />
+          <img src="./images/Paris.jpg" alt="card3" class="card__image" />
         </div>
         <h3 class="card__caption">Paris</h3>
-        <ul class="card__hotels-list">
-          <li>Hotel 4</li>
-          <li>Hotel 5</li>
-          <li>Hotel 6</li>
+        <ul class="card__hotel-list">
+          <li class="card__hotel-item">
+              <div class="card__hotel-name">Hotel 4</div>
+              <div class="card__hotel-rating">*****</div> 
+          </li>
+          <li class="card__hotel-item">
+              <div class="card__hotel-name">Hotel 5</div>
+              <div class="card__hotel-rating">*****</div> 
+          </li>
+          <li class="card__hotel-item">
+              <div class="card__hotel-name">Hotel 6</div>
+              <div class="card__hotel-rating">*****</div> 
+          </li>
         </ul>
-        <div class="card__cta">
-            <button class="button-cta">More ></button>
+        <div class="card__cta button">
+          <button class="button__cta">More ></button>
         </div>
       </div>
       <div>
-          <button class="button-arrow">
-              <img src="./chevron_right.png" class="button-arrow__image" >
-         </button>
+          <img src="./images/chevron_right.png" class="card-container__arrow" >
       </div>    
+    </div>
+    <div class="carousel__dots dots">
+        <a href="#" class="dots__dot dots__dot--active"></a>
+        <a href="#" class="dots__dot"></a>
+        <a href="#" class="dots__dot"></a>
+        <a href="#" class="dots__dot"></a>
     </div>
   </section>
 </body>
