@@ -1,0 +1,117 @@
+.carousel {
+    height: 100vh;
+    flex: 1;
+    background-image: linear-gradient(270deg,  #1d1d1d6e, #31313175), url("./images/Madrid.jpg");
+    justify-content: center;
+}
+
+.carousel__card-container{
+    display: flex;
+    flex-direction: row;  
+    justify-content: center; 
+    align-items: center;
+}
+
+.carousel__title{
+    text-transform:uppercase;
+    padding-top: 40px;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 2rem; 
+    color:white;
+}
+
+.carousel__title--orange-font{
+    color: #e54b2c;
+}
+
+.card{
+    margin: 20px 20px;
+    background-color: white;
+    max-width: 250px ;
+    height: auto;
+    justify-content: center;
+}
+
+.card__image {
+    max-width:100%;
+    height: auto;
+    background-color: white;
+}
+
+.card__caption{
+    padding-left: 40px;
+    text-transform:uppercase;
+    color: #e54b2c;
+    font-weight: bold;
+}
+
+.card__hotel-list{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #1f1e1e75
+}
+
+.card__hotel-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.card__hotel-rating{
+    margin: 10px 0px 10px 5px;
+    width: 5%;
+    height: 5%;
+}
+
+.card__cta{
+    text-align:center;
+    margin: 10px;
+}
+
+.button__cta{
+    background-color:#169;
+    color: white;
+    border-style: none;
+    text-transform:uppercase;
+    font-weight: bold;
+    margin: 10px; 
+}
+
+.card-container__arrow{
+    background-color: transparent;
+    border-style: none;
+    max-width: 60px;
+    height: auto;
+} 
+
+.button-arrow__image{
+    border-style: none;
+    max-width: 60px;
+    height: auto;
+}
+
+.carousel__arrow{
+    background-color: #e54b2c;
+}
+
+.carousel__dots {
+    margin: 20px 0px;
+    display: flex;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+  
+.dots__dot {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    margin: 0 4px;
+}
+  
+.dots__dot--active {
+    background: #e54b2c;
+}
+
