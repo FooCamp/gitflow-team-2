@@ -1,0 +1,48 @@
+.personal{
+    align-items: center;
+    max-width: 800px;
+    max-height: 400px;
+    padding: 10px;
+    margin:  50px auto;
+    background-color:#D4DDCB;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+  .personal--dark{
+    background-color: #2E2B2A;
+    color: #FAEFEB;
+  }
+  .personal__info,
+  .personal__image-container{
+      width: 50%;
+  }
+  .personal__image{
+  max-width: 100%
+  }
+  .personal__block{
+    text-align: center;
+  }
+  .personal__media{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .personal__container--title{
+    align-self: end;
+    font-size: 40px;
+    margin: 5px;
+  }
+  .media__title{
+    padding: 5px;
+    margin: 5px;
+  }
+  .personal__button--styles{
+    border-radius: 50px;
+    background-color: black;
+    color:white;
+    padding: 15px 50px;
+    
+  };
